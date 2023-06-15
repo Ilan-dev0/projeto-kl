@@ -20,7 +20,7 @@ const Navbar = () => {
 
     <nav className={nav ? "nav active" :"nav"}>
         <Link to='#' className='logo'>
-            <img src={logo} alt=''/>
+            <img src={logo} alt='' style={{ width: '150px', height: 'auto', padding: '10px'}}/>
         </Link>
         <input className='menu-btn' type='checkbox' id='menu-btn' />
         <label className='menu-icon' for='menu-btn'>

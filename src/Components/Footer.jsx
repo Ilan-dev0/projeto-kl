@@ -26,7 +26,7 @@ const Footer = () => {
 
             <div className=' flex flex-col items-center justify-center p-10'>
                 <img className='w-[220px] h-[100px] ' src={logo} alt='logo' />
-                <p className='text-zinc-900 text-xl py-2  text-start  mt-4'>DESENVOLVIDO POR: ILAN COSTA</p>
+                <p className='text-zinc-900 text-xl py-2  text-start  mt-4'>Desenvolvido por Ilan Costa</p>
             </div>
     </div>
   )

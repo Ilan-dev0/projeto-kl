@@ -3,9 +3,9 @@ import React from 'react'
 const Access = () => {
   return (
     <div id='access'>
-      <div className='access-heading'>
+      <div className='access-heading h-fit-content'>
         <h1 style={{fontFamily: 'FutureTense', fontSize: '1.5rem'}}>TUDO O QUE VOCÊ TERÁ ACESSO:</h1>
-        <div className='access-container'>
+        <div className='access-container p-3'>
             <ul>
               <li>
               1- Atendimento completo para análise da sua situação atual e objetivos.

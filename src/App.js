@@ -10,6 +10,7 @@ import Disclaimer from "./Components/Disclaimer";
 import Results from "./Components/Results";
 import Random from "./Components/Random";
 import Plan from "./Components/Plan";
+import Few from "./Components/Few";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Results />
       <Random />
       <Plan />
+      <Few />
       <Footer />
     </div>
   );
