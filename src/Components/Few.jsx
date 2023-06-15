@@ -1,32 +1,63 @@
 import React from 'react'
 import squat from '../images/squat.png'
-import foto from '../images/Foto.png'
+import FotoFew from '../images/FotoFew(1).png'
 import { color } from 'framer-motion'
 
 const Few = () =>{
 
 
     return(
-        <div id='mid'>
-        
-        <div className='a-container items-center' style={{marginTop: '100px', alignContent: 'center', flexDirection: 'row'}}>
-            
-              <div className='a-img'>
-                <img src={squat} alt='squat'/>
-              </div>
-            
-            
-              <div style={{flexDirection: 'column'}}>
-                <h1 style={{fontFamily: 'FutureTense'}}>MAS A VERDADE É QUE ESSE PROJETO <span style={{color:'#DAED33'}}>NÃO É PARA TODO MUNDO...</span></h1>
-                <p style={{fontSize: '1rem'}}>Os treinos são feitos de forma personalizada e periodizada. Seja para perda de peso, definição ou ganho de massa muscular. Após analisar a situação atual do seu corpo e entender quais são seus objetivos, vou alinhar isso a realidade de tempo disponível na sua rotina.</p>
-                <span>Acima de tudo, você irá aprender a treinar de verdade!</span>
-                <p style={{fontSize: '1rem'}}>Chega de ficar perdido na academia, com medo de estar executando errado e sem saber direito para o que serve o que você está fazendo.</p>
-                <p style={{fontSize: '1rem'}}>Agora você irá treinar como gente grande, progredir carga e de quebra ser admirado por todos a sua volta. A cada 8 semanas você subirá de nível, até atingir sua melhor versão.</p>
-                <div className='header-btns'>
-                <a href='#' className='header-btn' style={{width: '400px'}}>É DISSO QUE EU PRECISO, QUERO CONHECER!</a>
+      <div>
+        <div id='mid'>  
+          <div className='a-container items-center' style={{marginTop: '100px' , flexDirection: 'row'}}>
+              
+                <div className='a-img justify-center'>
+                  <img src={FotoFew} style={{opacity:'60%'}}/>
                 </div>
-              </div>
+              
+              
+                <div style={{flexDirection: 'column'}}>
+                  <h1 style={{fontFamily: 'FutureTense'}}>MAS A VERDADE É QUE ESSE PROJETO <span style={{color:'#DAED33'}}>NÃO É PARA TODO MUNDO...</span></h1>
+                  <p style={{fontSize: '1.2rem'}}>
+                    <span style={{fontWeight: 'bold'}}>
+                      Quer emagrecer, mas tem dúvidas se consegue mesmo… &nbsp;
+                    </span>
+                  Porque dentro do projeto toda a insegurança e medo sumirão.
+                  Você transformará sua mente e corpo.
+                  </p>
+
+                  <p style={{fontSize: '1.2rem'}}>
+                    <span style={{fontWeight: 'bold'}}>
+                      Quer de uma vez por todas começar e continuar
+                    </span>
+                    , sem viver aquele famoso efeito sanfona.
+                  </p>
+
+                  <p style={{fontSize: '1.2rem'}}>
+                    <span style={{fontWeight: 'bold'}}>
+                      Quer um método comprovado para seguir
+                    </span>
+                    , ao invés de fazer os treinos genéricos da academia, ou seguir as “receitinhas” de internet.
+                  </p>
+
+                  <p style={{fontSize: '1.2rem'}}>
+                    <span style={{fontWeight: 'bold'}}>
+                      Quer um Personal que te motive de verdade
+                    </span>
+                      , que acredite que você é capaz de conseguir essa mudança.
+                  </p>
+                </div>
+          </div>
+          <div className='pt-8'>
+            <h1 style={{fontWeight: 'bold'}}>
+              Quer olhar nos olhos das pessoas que ama e encontrar ADMIRAÇÃO
+            </h1>
+          </div>
+            <div className='header-btns'>
+              <a href='#' className='header-btn' style={{width: '300px'}}>ESTOU COMPROMETIDO</a>
+            </div>
         </div>
+
       </div>
     )
 }

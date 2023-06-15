@@ -21,7 +21,7 @@ const Mid = () => {
             </div>
         </div>
       
-      <div className='a-container' style={{marginTop: '100px', alignContent: 'right', flexDirection: 'row'}}>
+      <div className='a-container items-center' style={{marginTop: '100px', alignContent: 'right', flexDirection: 'row'}}>
           
             <div className='a-img'>
               <img src={squat} alt='squat'/>
