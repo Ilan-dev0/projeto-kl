@@ -223,6 +223,95 @@ nav .menu-btn,
     right: 10%;
 }
 
+.my-name-backgroundimg{
+    background-image: url('images/backgrounimg-myname.png');
+    background-size: 100% auto;
+    background-position: center;
+    width: 100%; /* Adjust as needed */
+    height: fit-content; /* Adjust as needed */
+}
+
+.my-name-container{
+    width:100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image:  linear-gradient(to bottom, rgba(218, 237, 51, 0.8), rgba(218, 237, 51, 0.981)) ;
+}
+
+.myname-footer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.myname-footer .square{
+    width: 1000px;
+    height: fit-content;
+    border-width: 3px;
+    padding: 10px;
+    border-color: #ffffff;
+}
+
+.myname-footer .footer-text{
+    width: 1000px;
+    padding-top: 20px;
+}
+
+.myname-footer .footer-text span{
+    font-size: 1.2rem;
+    text-align: justify;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.492);
+}
+
+.myname-footer p{
+    font-size: 1.2rem;
+    color: #F9F9F9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.492);
+}
+
+#my-name{
+    width:100%;
+    height: fit-content;
+    padding: 100px 50px 30px 50px;
+    box-sizing: border-box;
+    font-family:'Montserrat';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+#my-name img{
+    height: 400px;
+    width: auto;
+}
+
+.myname-text{
+    width: 750px;
+}
+
+#my-name h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'FutureTense';
+    font-size: 2.0rem;
+    color: #F9F9F9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.492);
+    
+}
+
+#my-name p{
+    padding-left: 50px;
+    font-size: 1.2rem;
+    color: #F9F9F9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.492);
+}
+
 #mid{
     width:100%;
     height: fit-content;
@@ -240,10 +329,12 @@ nav .menu-btn,
     color: #fff;
     font-size: 2rem;
     padding: 0 0 10px 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.492);
 
 }
 #mid span{
     color: #DAED33;
+    font-weight: bold;
 }
 #mid p{
     color: #fff;
