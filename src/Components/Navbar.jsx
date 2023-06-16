@@ -27,11 +27,11 @@ const Navbar = () => {
             <span className='nav-icon'></span>
         </label>
         <ul className='menu'>
-            <li><Link to='#'>Inicio</Link></li>
-            <li><Link to='#'>Dúvidas</Link></li>
-            <li><Link to='#'>Planos</Link></li>
-            <li><Link to='#'>Resultados</Link></li>
-            <li><Link to='#'>Contato</Link></li>
+            <li style={{cursor:'pointer'}}><Link to='#'>Inicio</Link></li>
+            <li style={{cursor:'pointer'}}><Link to='#'>Dúvidas</Link></li>
+            <li style={{cursor:'pointer'}}><Link to='#'>Planos</Link></li>
+            <li style={{cursor:'pointer'}}><Link to='#'>Resultados</Link></li>
+            <li style={{cursor:'pointer'}}><Link to='#'>Contato</Link></li>
         </ul>
     </nav>
   )

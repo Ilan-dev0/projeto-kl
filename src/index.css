@@ -223,7 +223,7 @@ nav .menu-btn,
     right: 10%;
 }
 
-.my-name-backgroundimg{
+.my-name-backgroung{
     background-image: url('images/backgrounimg-myname.png');
     background-size: 100% auto;
     background-position: center;
@@ -237,7 +237,8 @@ nav .menu-btn,
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image:  linear-gradient(to bottom, rgba(218, 237, 51, 0.8), rgba(218, 237, 51, 0.981)) ;
+    background-image:  linear-gradient(to bottom, rgba(218, 237, 51, 0.8), rgba(218, 237, 51, 0.981));
+    padding-bottom: 60px;
 }
 
 .myname-footer{
@@ -311,6 +312,121 @@ nav .menu-btn,
     color: #F9F9F9;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.492);
 }
+
+#real-results{
+    width:100%;
+    height: fit-content;
+    padding: 50px 50px 50px 50px;
+    box-sizing: border-box;
+    font-family:'Montserrat';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #2F2E2B;
+}
+
+#real-results .title-div{
+    padding: 5px;
+    height: fit-content;
+    width: fit-content;
+    border-width: 3px 0 3px 0;
+}
+
+#real-results .title-div h1{
+    font-weight: bold;
+    font-family: 'FutureTense';
+    font-size: 2.0rem;
+    color: #F9F9F9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.492);
+}
+
+#real-results .carrousel{
+    flex-direction: row;
+    align-items: center;
+}
+
+#real-results .carrousel-item{
+    margin-top: 40px;
+    height: fit-content;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#real-results .carrousel-item .square{
+    height: 350px;
+    width: 220px;
+    background-color: #373634;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+
+#real-results .carrousel-item .square .photo{
+    transform: translate(0%, -50%);
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: rgb(29, 29, 29);
+}
+
+#real-results .carrousel-item .square .title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 5px;
+    border-width: 0 0 2px 0;
+    border-color: #fff;
+}
+
+#real-results .carrousel-item .square .title h1{
+    font-weight: bold;
+    color: #F9F9F9;
+}
+
+#real-results .carrousel-item .square p{
+    color: #F9F9F9;
+}
+
+#real-results .carrousel-item .square .text{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#real-results .footer{
+    margin-top: 120px;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#real-results .footer .line{
+    width: 800px;
+    border-width: 0 0 3px 0;
+    margin-bottom: 30px;
+    border-color: #F9F9F9;
+}
+
+#real-results .footer h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'FutureTense';
+    font-size: 1.6rem;
+    color: #F9F9F9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.492);
+}
+
+
 
 #mid{
     width:100%;

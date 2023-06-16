@@ -4,7 +4,7 @@ import kaique from '../images/Kaique.png'
 const MyName = () =>{
 
     return(
-        <div className='my-name-backgroundimg'>
+        <div className='my-name-backgroung'>
             <div className='my-name-container'>
                 <div id='my-name'>
                     <div>

@@ -12,6 +12,7 @@ import Random from "./Components/Random";
 import Plan from "./Components/Plan";
 import Few from "./Components/Few";
 import MyName from "./Components/MyName";
+import RealResult from "./Components/RealResults";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Plan />
       <Few />
       <MyName />
+      <RealResult />
       <Footer />
     </div>
   );
