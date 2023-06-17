@@ -10,6 +10,10 @@
   src: url(../src/fonts/FutureTense.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     margin:0px;
     padding: 0px;
@@ -145,18 +149,20 @@ nav .menu-btn,
 .header-content{
     width: 90%;
     margin: 0 auto;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .header-btns{
-    display: flex;
-    margin-top: 40px;
-
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    
 }
 .header-btn{
-	width: 20rem;
-	height: 50px;
-	display: flex;
+	margin-top: 20px;
+    max-width: 300px;
+    padding: 12px;
+	display: block;;
 	justify-content: center;
     align-items: center;
     font-size: 1rem;
@@ -167,9 +173,7 @@ nav .menu-btn,
 }
 
 .header-btn2{
-	width: 20rem;
-	height: 50px;
-	display: flex;
+	display: block;
 	justify-content: center;
     align-items: center;
     font-family: 'Montserrat';
@@ -185,9 +189,9 @@ nav .menu-btn,
 }
 
 .header-btn3{
-	width: 10rem;
-	height: 50px;
-	display: flex;
+
+	display: block;
+    padding: 12px;
 	justify-content: center;
     align-items: center;
     font-family: 'Montserrat';
@@ -242,6 +246,7 @@ nav .menu-btn,
 }
 
 .myname-footer{
+    padding: 40px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -249,16 +254,16 @@ nav .menu-btn,
 }
 
 .myname-footer .square{
-    width: 1000px;
+    width: 100%;
     height: fit-content;
     border-width: 3px;
-    padding: 10px;
+    padding: 20px;
     border-color: #ffffff;
 }
 
 .myname-footer .footer-text{
-    width: 1000px;
-    padding-top: 20px;
+    width: 100%;
+    padding: 30px;
 }
 
 .myname-footer .footer-text span{
@@ -293,7 +298,7 @@ nav .menu-btn,
 }
 
 .myname-text{
-    width: 750px;
+    width: 100%;
 }
 
 #my-name h1{
@@ -411,7 +416,7 @@ nav .menu-btn,
 }
 
 #real-results .footer .line{
-    width: 800px;
+    width: 100%;
     border-width: 0 0 3px 0;
     margin-bottom: 30px;
     border-color: #F9F9F9;
@@ -473,7 +478,7 @@ nav .menu-btn,
 
 #access{
     width:100%;
-    height:468px;
+    height:auto;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -520,7 +525,7 @@ nav .menu-btn,
     align-content: center;
     flex-direction: column;
     width: 100%;
-    height: fit-content;
+    height: auto;
     max-width: 924px;
     margin-top: 20px;
 
@@ -591,17 +596,31 @@ nav .menu-btn,
 .a-b-text{
     width: 100%;
     height: 40%;
-    background-color:#000000;
     display:flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    
+
     flex-direction: column;
 }
 .a-b-text h2{
-    color: #fff;
+    color: #DAED33;
 }
 .a-b-text p{
+    margin: 0px;
+    color:#ffffffa6;
+    font-size: 2rem;
+    font-family:'Montserrat';
+    display: block;
+    display: -webkit-box;
+    max-width: 80%;
+    margin-top: 5px;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 10px;
+}
+.a-b-text span{
     margin: 0px;
     color:#ffffffa6;
     font-size: 1.1rem;
@@ -765,6 +784,7 @@ nav .menu-btn,
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 10px;
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61b50808', endColorstr='#99000000',GradientType=1 );
     background-image: url('./images/treino1.png');
     
@@ -809,6 +829,7 @@ nav .menu-btn,
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 15px;
     background-image: url('./images/treino2.png');
 }
 
@@ -928,7 +949,7 @@ nav .menu-btn,
     font-family: FutureTense;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 32px;
     line-height: 49px;
     text-transform: uppercase;
     text-align: start;
@@ -936,6 +957,11 @@ nav .menu-btn,
 
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
+}
+
+.plan-offer{
+    display: flex;
+    flex-direction: row;
 }
 
 .plan-offer h2{
@@ -967,7 +993,7 @@ nav .menu-btn,
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 3rem;
     line-height: 39px;
     /* identical to box height */
 
@@ -1082,11 +1108,8 @@ nav .menu-btn,
 
 #footer{
     width:100%;
-    max-height: 665px;
-    display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     background: #DAED33;
     
 }
@@ -1143,6 +1166,7 @@ nav .menu-btn,
     }
     #mid{
 		height:auto;
+        padding: 32px;
     }
     .a-container{
 		flex-wrap: wrap;
@@ -1182,7 +1206,6 @@ nav .menu-btn,
         display:none;
     }
     .header-btn{
-        margin-left: 20%;
         margin-top: 20px;
     }
     .pr-btn{
@@ -1214,8 +1237,53 @@ nav .menu-btn,
     .about-text p{
         width: 100%;
     }
+    .a-img{
+        display:none;
+    }
+    .a-b-text{
+        align-items: center;
+    }
+    .card-filter{
+        width: 100%;
+    }
+    .card-filter{
+        height: auto;
+    }
+    .card2-img{
+        height: auto;
+    }
     #mid{
-        margin-bottom: 100px;
+        padding: 32px;
+    }
+    #random{
+        height: auto;
+    }
+    .plan-content{
+        padding:20px;
+    }
+    .plan-offer{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .plan-card{
+        margin-bottom: 20px;
+    }
+    .plan-content h1{
+        font-family: FutureTense;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 49px;
+        text-transform: uppercase;
+        text-align: start;
+        color: #F9F9F9;
+    
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+    }
+    #my-name img{
+        display: none;
     }
 }
 @media screen and (max-width:600px){
@@ -1237,7 +1305,7 @@ nav .menu-btn,
             width:70px;
         }
         .header-btns{
-            margin: 0;
+            margin: 20px;
         }
         .pr-btns{
             margin: 0;

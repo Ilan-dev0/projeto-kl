@@ -19,7 +19,7 @@ const Random = () => {
         </div>
 
               <div className='header-btns m-5'>
-                <a href='#' className='header-btn2' style={{width: '400px'}}>É DISSO QUE EU PRECISO!</a>
+                <a href='#' className='header-btn2'>É DISSO QUE EU PRECISO!</a>
               </div>
     </div>
   )

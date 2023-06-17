@@ -5,7 +5,7 @@ import resultado1 from '../images/resultado1.png'
 import resultado2 from '../images/resultado2.png'
 import resultado3 from '../images/resultado3.png'
 
-const resultados = [resultado1, resultado2, resultado3, resultado3]
+const resultados = [resultado1, resultado2, resultado3]
 
 
 const Results = () => {
@@ -19,13 +19,13 @@ const Results = () => {
     }, [])
 
   return (
-    <div id='results'>
+    <div id='results' className=' w-full m-0-auto   flex-column  align-center justify-center '>
       <div className='results-content p-10 justify-center text-center'>
         <h1 className='text-white text-3xl'>RESULTADOS REAIS</h1>
         <h2 className='text-white text-xl'>TIME KAIQUE LOPES</h2>
       </div>
 
-      <div className='flex align-center justify-center'>
+      <div className='w-full m-0-auto  flex  align-center justify-center bg-zinc-900 pt-10'>
         <motion.div ref={carousel} className='cursor-grab overflow-hidden max-w-[1200px]' whileTap={{cursor: "grabbing"}}>
             <motion.div 
             className='flex'
@@ -53,7 +53,7 @@ const Results = () => {
         </div>
 
               <div className='header-btns m-10'>
-                <a href='#' className='header-btn' style={{width: '400px'}}>ENTRAR PARA O TIME AGORA</a>
+                <a href='#' className='header-btn' >ENTRAR PARA O TIME AGORA</a>
               </div>
     </div>
   )

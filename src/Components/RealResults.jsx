@@ -18,7 +18,7 @@ const RealResult = () =>{
                     Resultados Reais
                 </h1>
             </div>
-            <div className="carrousel">
+            <div className="carrousel w-full m-0-auto  flex  align-center justify-center bg-zinc-900 pt-10">
 
                 <motion.div ref={carousel} className='cursor-grab overflow-hidden max-w-[1200px]' whileTap={{cursor: "grabbing"}}>
                     <motion.div 
@@ -108,7 +108,7 @@ const RealResult = () =>{
                     VOCÊ NÃO ESTARÁ SOZINHO!
                 </h1>
                 <div className='header-btns m-10'>
-                <a href='#' className='header-btn' style={{width: '300px'}}>QUERO FALAR COM O KAIQUE</a>
+                <a href='#' className='header-btn' >QUERO FALAR COM O KAIQUE</a>
                 </div>
             </div>
         </div>
