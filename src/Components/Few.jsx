@@ -17,7 +17,7 @@ const Few = () =>{
               
               
                 <div style={{flexDirection: 'column'}}>
-                  <h1 style={{fontFamily: 'FutureTense'}}>MAS A VERDADE É QUE ESSE PROJETO <span style={{color:'#DAED33'}}>NÃO É PARA TODO MUNDO...</span></h1>
+                  <h1 style={{fontFamily: 'Montserrat'}}>MAS A VERDADE É QUE ESSE PROJETO <span style={{color:'#DAED33'}}>NÃO É PARA TODO MUNDO...</span></h1>
                   <p style={{fontSize: '1.2rem'}}>
                     <span style={{fontWeight: 'bold'}}>
                       Quer emagrecer, mas tem dúvidas se consegue mesmo… &nbsp;

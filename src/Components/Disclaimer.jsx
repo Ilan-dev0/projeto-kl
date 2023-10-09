@@ -9,23 +9,23 @@ const Disclaimer = () => {
       </div>
 
       <div className='disclaimer-shadow bg-[#DAED33]  rounded  shadow-xl p-5 m-4'>
-        <h1 className='text-xl font-bold'>PASSO 01: <span className='text-xl font-normal'>ANAMNESE PARA DIAGNÓSTICO INICIAL DA SUA REALIDADE E DOS SEUS OBJETIVOS</span></h1>
+        <h1 className='text-xl font-bold'>PASSO 01: <span className='text-xl font-normal'>Anamnese para diagnóstico inicial da sua realidade e dos seus objetivos</span></h1>
       </div>
       
       <div className='disclaimer-shadow bg-[#DAED33]  rounded  p-5 m-4'>
-        <h1 className='text-xl font-bold'>PASSO 02: <span className='text-xl font-normal'>CHAMADA DE VIDEO INDIVIDUAL PARA EU ENTENDER SUAS MOTIVAÇÕES E MONTAR <br></br> UM PLANO DE AÇÃO PERSONALIZADO</span> </h1> 
+        <h1 className='text-xl font-bold'>PASSO 02: <span className='text-xl font-normal'>Chamada de vídeo individual para eu entender suas motivações e montar um plano de ação personalizado</span> </h1> 
       </div>
 
       <div className='disclaimer-shadow bg-[#DAED33]  rounded  p-5 m-4'>
-        <h1 className='text-xl font-bold'>PASSO 03: <span className='text-xl font-normal'>ANAMNESE PARA DIAGNÓSTICO INICIAL DA SUA REALIDADE E DOS SEUS OBJETIVOS</span></h1>
+        <h1 className='text-xl font-bold'>PASSO 03: <span className='text-xl font-normal'>Entrega do seu treino, totalmente individualizado, alinhado com seus objetivos e atualizado conforme seu progresso</span></h1>
       </div>
 
       <div className='disclaimer-shadow bg-[#DAED33]  rounded  p-5 m-4'>
-        <h1 className='text-xl font-bold'>PASSO 04: <span className='text-xl font-normal'>ANAMNESE PARA DIAGNÓSTICO INICIAL DA SUA REALIDADE E DOS SEUS OBJETIVOS</span></h1>
+        <h1 className='text-xl font-bold'>PASSO 04: <span className='text-xl font-normal'>Acompanhamento da sua evolução através de fotos mensais</span></h1>
       </div>
       
       <div className='disclaimer-shadow bg-[#DAED33]  rounded  p-5 m-4'>
-        <h1 className='text-xl font-bold'>PASSO 05: <span className='text-xl font-normal'>ANAMNESE PARA DIAGNÓSTICO INICIAL DA SUA REALIDADE E DOS SEUS OBJETIVOS</span></h1>
+        <h1 className='text-xl font-bold'>PASSO 05: <span className='text-xl font-normal'>Acompanhamento no whatsapp durante todo o processo para feedback e direcionamento</span></h1>
       </div>
     </div>
   )

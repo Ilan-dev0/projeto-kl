@@ -19,6 +19,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Header />
+      <Plan />
       <Mid />
       <Access />
       <Bonus />

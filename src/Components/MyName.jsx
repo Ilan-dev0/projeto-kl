@@ -5,7 +5,7 @@ const MyName = () =>{
 
     return(
         <div id='name' className='my-name-backgroung'>
-            <div className='my-name-container'>
+            <div className='my-name-container '>
                 <div id='my-name'>
                     <div>
                         <img src={kaique} />

@@ -4,7 +4,7 @@ const Access = () => {
   return (
     <div id='access'>
       <div className='access-heading h-fit-content'>
-        <h1 style={{fontFamily: 'FutureTense', fontSize: '1.5rem'}}>TUDO O QUE VOCÊ TERÁ ACESSO:</h1>
+        <h1 style={{fontSize: '1.5rem'}}>TUDO O QUE VOCÊ TERÁ ACESSO:</h1>
         <div className='access-container p-3'>
             <ul>
               <li>

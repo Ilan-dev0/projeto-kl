@@ -17,11 +17,11 @@ const Plan = () => {
                             <li className='p-2 border-b-2 border-[#000] '>Acompanhamento via Whatsapp</li>
                         </ul>
 
-                        <p className='p-10 text-center text-xl'>De R$310,00 por apenas: <br></br>
-                        <span>R$ 279,00</span> <br></br> 10% de desconto</p>
+                        <p className='p-10 text-center text-xl'>De R$210,00 por apenas: <br></br>
+                        <span>R$ 189,00</span> <br></br> 10% de desconto</p>
                 
                     <div className='header-btns m-5'>
-                        <a href='#' className='header-btn3' >QUERO COMEÇAR</a>
+                        <a href='#' className='header-btn3 md:m-10' >QUERO COMEÇAR</a>
                     </div>
                 </div>
 
@@ -33,11 +33,11 @@ const Plan = () => {
                             <li className='p-2 border-b-2 border-[#000] '>Acompanhamento via Whatsapp</li>
                         </ul>
 
-                        <p className='p-10 text-center text-xl'>De R$620,00 por apenas: <br></br> 
-                        <span>R$ 527,00</span> <br></br> 10% de desconto</p>
+                        <p className='p-10 text-center text-xl'>De R$537,00 por apenas: <br></br> 
+                        <span>R$ 483,00</span> <br></br> 10% de desconto</p>
                 
                     <div className='header-btns m-5'>
-                        <a href='#' className='header-btn3' >QUERO COMEÇAR</a>
+                        <a href='#' className='header-btn3 md:m-10'  >QUERO COMEÇAR</a>
                     </div>
                 </div>
 
@@ -49,11 +49,11 @@ const Plan = () => {
                             <li className='p-2 border-b-2 border-[#000] '>Acompanhamento via Whatsapp</li>
                         </ul>
 
-                        <p className='p-10 text-center text-xl'>De R$1674,00 por apenas: <br></br>
-                        <span className='text-4xl'>R$ 1297,00</span> <br></br> 10% de desconto</p>
+                        <p className='p-10 text-center text-xl'>De R$1074,00 por apenas: <br></br>
+                        <span className='text-4xl'>R$ 966,00</span> <br></br> 10% de desconto</p>
                 
-                    <div className='header-btns m-5'>
-                        <a href='#' className='header-btn3' >QUERO COMEÇAR</a>
+                    <div className='header-btns m-10'>
+                        <a href='#' className='header-btn3 md:m-10' >QUERO COMEÇAR</a>
                     </div>
                 </div>
       </div>

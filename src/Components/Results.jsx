@@ -25,10 +25,11 @@ const Results = () => {
         <h2 className='text-white text-xl'>TIME KAIQUE LOPES</h2>
       </div>
 
-      <div className='w-full m-0-auto  flex  align-center justify-center bg-zinc-900 pt-10'>
+      <div className='w-full m-0-auto  flex  align-center justify-center pt-10 '>
         <motion.div ref={carousel} className='cursor-grab overflow-hidden max-w-[1200px]' whileTap={{cursor: "grabbing"}}>
             <motion.div 
-            className='flex'
+            
+            className='flex '
             drag="x"
             dragConstraints={{ right:0, left: -width}}
             initial={{ x: 100 }}
